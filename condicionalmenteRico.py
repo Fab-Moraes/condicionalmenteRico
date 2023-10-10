@@ -1,3 +1,6 @@
+#  o código está encapsulado em uma função realizar_saque, que torna mais modular e legível, permitindo a entrada de dados uma única vez e chamando a função para realizar o saque e imprimir o resultado.
+
+
 def realizar_saque(saldo_total, valor_saque):
     if saldo_total >= valor_saque:
         saldo_total -= valor_saque
